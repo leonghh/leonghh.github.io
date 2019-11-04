@@ -1,0 +1,21 @@
+header{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}   
+
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: #666666;
+    margin: 0;
+    padding: 20px;
+}
+
+.maincontent{
+    background-color: #ffffff;
+    width: 970px;
+    margin: 0 auto;
+}
