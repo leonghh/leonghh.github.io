@@ -1,9 +1,12 @@
 header{
     background-color: #ffffff;
     margin: 0;
-    padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-bottom:20px;
+    width: 100%;
     border-bottom: 1px solid #4aaaa5;
+    content: "";
+    clear: both;
+    display: table;
 }   
 
 body{
@@ -19,25 +22,69 @@ footer{
     text-align: center;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
-h1{
+a:link {
+    text-decoration: none
+}
+
+.topmenu{
+    width: 970px;
+    margin: 0 auto;
+}
+
+.name{
     color: #ffffff;
     background-color: #4aaaa5;
-    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin: 0;
+    padding: 15px;
+    float: left;
+}
+
+.rightmenu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 22px;
+}
+
+hr{
+    border: 1px solid #4aaaa5;
+    background-color: #4aaaa5;
+    margin-bottom: 25px;
 }
 
 .maincontent{
     background-color: #ffffff;
     width: 970px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
 }
 
-#profilepic{
+.profilepic{
     width: 200px;
     height: 200px;
+    float: left;
+    margin-right: 20px;
 }
+
+.side{
+    height: 200px;
+}
+
+.content{
+    content: "";
+    clear: both;
+    display: table;
+    text-align: justify;
+}
+
