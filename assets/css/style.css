@@ -22,7 +22,10 @@ footer{
     text-align: center;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
-    width: 100%;
+    width: 99%;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a:link {
