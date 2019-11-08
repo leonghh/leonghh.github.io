@@ -112,3 +112,29 @@ ul a::before{
 ul a:hover::before{
     width: 100%;
 }
+
+img{
+    height: 200x;
+    width: 240px;
+    border: 1px solid #777777;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.inside{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#relative1, #relative2, #relative3, #relative4, #relative5{
+    position: relative;
+}
+
+#absolute1, #absolute2, #absolute3, #absolute4, #absolute5{
+    position: absolute;
+    bottom: 60px;
+}
