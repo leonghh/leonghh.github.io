@@ -125,6 +125,7 @@ input, textarea{
     font-size:16px;
     width:100%;
     height: 30px;
+    padding-left: 1px;
 }
 
 .type2{
@@ -132,6 +133,7 @@ input, textarea{
     width:100%;
     height: 200px;
     min-height: 200px;
+    padding-left: 10px;
 }
 
 button{

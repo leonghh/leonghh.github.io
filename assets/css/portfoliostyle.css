@@ -114,8 +114,8 @@ ul a:hover::before{
 }
 
 img{
-    height: 200x;
-    width: 240px;
+    height: 170px;
+    width: 250px;
     border: 1px solid #777777;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -125,16 +125,22 @@ img{
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
-    width: 240px;
+    width: 250px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #relative1, #relative2, #relative3, #relative4, #relative5{
     position: relative;
+    display: inline-block;
 }
 
 #absolute1, #absolute2, #absolute3, #absolute4, #absolute5{
     position: absolute;
     bottom: 60px;
+}
+
+.container{
+    position: relative;
+    margin: auto 0;
 }
