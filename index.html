@@ -1,42 +1,70 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Activity: Basic Student Bio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<header>
-    <nav class="topmenu">
-        <h1 class="name">Eugene Leong</h1>
-        <ul class="rightmenu">
-            <li><a href="./index.html"">About</a></li>
-            <li><a href="./portfolio.html">Portfolio </a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<div id="page-container">
-    <div id="content-wrap">
-        <body background="./assets/images/criss-cross.png">
-            <div class="maincontent">
-                <h2>About Me</h2>
-                <hr>
-                <div class="content">
-                    <img class="profilepic" src="./assets/images/profilepic.jpg" alt="profilepic">
-                    <div class="side">I am 25 years old and from Singapore and have came to Australia for my Bachelor's Degree. The degree i was undertaking was a Bachelor of Business Degree in International Hotel and Resort Management. I have just graduated and am currently attending a coding bootcamp organised by Trilogy at University of Sydney. I was just working part time after my graduation but i got boring really quick. I wanted to look for something to entetin myself and that was when i saw the advertisement for the coding bootcamp. I don't have alot to say about myself so here is an article about digital media use and mental health i was reading about on Wikipedia.</div>
-                    <br>
-                    <p>The relationships between digital media use and mental health have been investigated by various researchers—predominantly psychologists, sociologists, anthropologists, and medical experts—especially since the mid-1990s, after the growth of the World Wide Web. A significant body of research has explored "overuse" phenomena, commonly known as "digital addictions", or "digital dependencies". These phenomena manifest differently in many societies and cultures. Some experts have investigated the benefits of moderate digital media use in various domains, including in mental health, and the treatment of mental health problems with novel technological solutions.</p>
-                    <p>The delineation between beneficial and pathological use of digital media has not been established. There are no widely accepted diagnostic criteria, although some experts consider overuse a manifestation of underlying psychiatric disorders. The prevention and treatment of pathological digital media use is also not standardised, although guidelines for safer media use for children and families have been developed. The Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5) does not include diagnoses for problematic internet use, problematic social media use, and gaming disorder (commonly known as video game addiction), whereas the eleventh revision of the International Classification of Diseases (ICD-11) recognises gaming disorder. Experts are still debating how and when to diagnose these conditions. The use of the term addiction to refer to these phenomena and diagnoses has also been questioned.</p>
-                    <p>Digital media and screen time have changed how children think, interact and develop in positive and negative ways, but scientists are unsure about the existence of hypothesised causal links between digital media use and mental health outcomes. Those links appear to depend on the individual and the platforms they use. Several large technology firms have made commitments or announced strategies to try to reduce the risks of digital media use.</p>
-                </div>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://kit.fontawesome.com/587cb420b5.js" crossorigin="anonymous"></script>
+
+    <title>Github Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left" src="./assets/images/profilepic.jpg"/>
+            <div class="profile-content float-left">
+                <h1 class="name">Eugene Leong</h1>
+                <h4 class="desc">Learning Full Stack</h4>
+                <h6 class="location">Sydney, Australia</h6>
+                <ul class="social list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://linkedin.com/in/eugeneleonghonghao" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/leonghh" target="_blank">
+                            <i class="fab fa-github-alt"></i>
+                        </a>
+                    </li>                  
+                </ul> 
             </div>
-        </body>
+            <a class="btn btn-cta-primary float-right" href="./contact.html"><i class="fas fa-paper-plane"></i> Contact Me</a>              
+        </div>
+    </header>
+
+    <div class="container pageContent">
+        <div class="row d-flex justify-content-around">
+            <div class="col-7 aboutMe">
+                <h4>About Me</h4>
+                <hr>
+                <p>I am 25 years old, from Singapore and have came to Australia for my Bachelor's Degree. The degree
+                    i was undertaking was a Bachelor of Business Degree in International Hotel and Resort Management. I
+                    have just graduated and am currently attending a coding bootcamp organised by Trilogy at University
+                    of Sydney. I was just working part time after my graduation but it got boring really quick. I wanted
+                    to look for something new to learn and that was when i stumbled scross coding.
+                    </p>
+            </div>
+
+            <div class="col-4 myProjects">
+                <h4>My Projects</h4>
+                <hr>
+            </div>
+        </div>
     </div>
-        <footer id="footer">
-            <div class="Copyright">Copyright Ⓒ</div>
-        </footer>
-</div>
+
+    <footer class="navbar fixed-bottom justify-content-center mt-3 pt-2 pb-2">
+        <div class="text-center">Copyright Ⓒ</div>
+    </footer>
+
+</body>
 
 </html>
