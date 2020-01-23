@@ -42,7 +42,7 @@ body {
   }
 
 .pageContent {
-  width: 80%
+  width: 90%
 }
 
   .pageContent hr {
@@ -66,6 +66,21 @@ body {
 
   .pageContent p {
     text-align: justify;
+  }
+
+  .pageContent .myProjects .projectList {
+    line-height: 2rem;
+    font-size: 18px;
+  }
+
+  .pageContent .myProjects .projectList li a {
+    text-decoration: none;
+    color: rgb(8, 53, 51);
+  }
+
+  .pageContent .myProjects .moreDetailsBtn a {
+    text-decoration: none;
+    color: gray;
   }
 
 footer {
@@ -106,4 +121,22 @@ section {
     border: 1px solid #ffffff;  
     border-radius: 4px;
   }
+
+/* Project Page */
+
+.projectsPage a {
+  text-decoration: none;
+  color: #4f5965;
+}
+
+.projectsPage img {
+  height: 220px;
+  border: 1px solid rgb(231, 230, 230);
+  border-radius: 2px;
+}
+
+.projectsPage .resumeLink {
+  font-size: 20px;
+  text-decoration: underline;
+}
 
