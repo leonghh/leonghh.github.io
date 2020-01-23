@@ -1,12 +1,6 @@
 Github Portfolio
 
-Repository link : 
-Portfolio link : 
+Repository link : https://github.com/leonghh/leonghh.github.io
+Portfolio link : https://leonghh.github.io/
 
-Screenshots:
-![Image description](./assets/images/AboutMe.PNG)
-
-![Image description](./assets/images/Portfolio.PNG)
-
-![Image description](./assets/images/Contact.PNG)
 
